@@ -5,16 +5,14 @@
 }
 
 :root {
-  --azul-escuro: #1f1f1f;
-  --azul-medio: #1f1f1f;
+  --cinza: #1f1f1f;
   --marron-claro: #453e3e;
   --cor-fonte-principal: #041833;
   --cor-fonte-post: #444444;
   --branco: #ce9178;
-  --fonte-principal: "Raleway", sans-serif;
-  --fonte-secundaria: "Playfair Display", sans-serif;
+  --fonte: "Raleway", sans-serif;
 
-  font-family: var(--fonte-principal);
+  font-family: var(--fonte);
 }
 
 #root {
@@ -47,6 +45,6 @@ li {
 h1,
 h2,
 h3 {
-  font-weight: 700;
+  font-weight: 400;
   line-height: 5rem;
 }

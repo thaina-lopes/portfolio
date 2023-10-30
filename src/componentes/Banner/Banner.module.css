@@ -1,6 +1,6 @@
 .banner {
   padding: 3rem 8rem;
-  background-color: var(--azul-escuro);
+  background-color: var(--cinza);
   color: var(--branco);
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -8,13 +8,15 @@
 }
 
 .titulo {
-  font-family: var(--fonte-primaria);
+  font-family: var(--fonte);
+  font-weight: 200;
   font-size: 4rem;
   margin-bottom: 1rem;
 }
 
 .paragrafo {
-  font-family: var(--fonte-primaria);
+  font-family: var(--fonte);
+  font-weight: 400;
   font-size: 1.5rem;
   line-height: 2rem;
   margin-left: 0.5rem;

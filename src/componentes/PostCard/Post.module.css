@@ -16,9 +16,9 @@
 }
 
 .titulo {
-  font-family: var(--fonte-primaria);
+  font-family: var(--fonte);
   font-size: 1.25rem;
-  color: var(--azul-escuro);
+  color: var(--cinza);
   line-height: 1.75rem;
   margin: 1.5rem 0 1.75rem;
 }
@@ -28,7 +28,7 @@
     width: 336px;
   }
   .titulo {
-    font-weight: 600;
+    font-weight: 500;
   }
   .botaoLer {
     padding: 0.6875rem 1.5rem;
