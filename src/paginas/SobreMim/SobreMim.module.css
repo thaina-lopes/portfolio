@@ -1,6 +1,7 @@
 .fotoSobreMim {
   margin-bottom: 0.5rem;
-  margin-left: 1.5rem;
+  margin-left: 3.5rem;
+  margin-top: -5rem;
   width: 20vw;
   float: right;
 }
@@ -34,7 +35,7 @@
 
 @media (max-width: 744px) {
   .fotoSobreMim {
-    width: 100%;
+    width: 80%;
   }
 
   .subtitulo {
