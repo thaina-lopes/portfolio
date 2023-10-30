@@ -1,5 +1,11 @@
-import styles from "./Inicio.module.css";
+import SobreMim from "paginas/SobreMim";
+import Projetos from "paginas/Projetos";
 
 export default function Inicio() {
-  return <div className={styles.espacoEmBranco}></div>;
+  return (
+    <>
+      <SobreMim />
+      <Projetos />
+    </>
+  );
 }
