@@ -1,23 +1,41 @@
 .banner {
-  padding: 3rem 7.5rem 6rem;
+  padding: 3rem 8rem;
   background-color: var(--azul-escuro);
   color: var(--branco);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .titulo {
-  font-family: var(--fonte-secundaria);
+  font-family: var(--fonte-primaria);
   font-size: 4rem;
-  margin-top: 8.875rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .paragrafo {
-  font-family: var(--fonte-secundaria);
+  font-family: var(--fonte-primaria);
   font-size: 1.5rem;
   line-height: 2rem;
-  margin-bottom: 2rem;
+  margin-left: 0.5rem;
+  border-right: 2px solid #ce9178;
+  padding-right: 2px;
+  width: 21ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: piscar normal infinite 0.8s, escrever 2s steps(21) both;
+}
+
+@keyframes escrever {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes piscar {
+  100% {
+    border-color: transparent;
+  }
 }
 
 .imagens {
@@ -27,31 +45,34 @@
 
 .imagens > .minhaFoto {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 0vw;
+  bottom: 2vw;
   width: 18vw;
   border-radius: 50%;
 }
 
 .imagens > .circuloColorido {
   position: absolute;
-  right: 7vw;
-  bottom: 2.2vw;
+  top: 45%;
+  left: 70%;
+  transform: translate(-50%, -50%);
   width: 20vw;
 }
 
 @media (max-width: 1100px) {
   .banner {
-    padding: 3.5rem 1.5rem;
+    padding: 3.5rem 2rem;
   }
 
   .titulo {
     margin-top: 0;
-    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 0.1rem;
   }
 
   .paragrafo {
-    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    margin-left: 0.1rem;
   }
 
   .imagens {
@@ -64,7 +85,8 @@
 
   .imagens > .circuloColorido {
     right: 10vw;
-    width: 35vw;
+    width: 30vw;
+    left: 65%;
   }
 }
 
@@ -72,14 +94,17 @@
   .banner {
     padding: 2rem 1rem;
     display: block;
+    text-align: center;
   }
 
   .titulo {
-    margin-bottom: 2rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
   }
 
   .paragrafo {
-    margin-bottom: 2rem;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .imagens {
@@ -94,12 +119,12 @@
   }
 
   .imagens > .minhaFoto {
-    width: 170px;
-    transform: translate(5rem, 0px);
+    width: 150px;
+    transform: translate(20px, -40px);
   }
 
   .imagens > .circuloColorido {
-    width: 240px;
-    transform: translate(-1.5rem, 0px);
+    width: 170px;
+    transform: translate(-20px, -70px);
   }
 }

@@ -16,7 +16,7 @@
 }
 
 .titulo {
-  font-family: var(--fonte-secundaria);
+  font-family: var(--fonte-primaria);
   font-size: 1.25rem;
   color: var(--azul-escuro);
   line-height: 1.75rem;
