@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --cinza: #1f1f1f;
   --marron-claro: #453e3e;
