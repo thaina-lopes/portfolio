@@ -1,6 +1,5 @@
 import styles from "./Banner.module.css";
-import circuloColorido from "assets/circulo_colorido.png";
-import minhaFoto from "assets/minhafoto.png";
+import minhaFoto from "assets/imagem_banner02.png";
 
 export default function Banner() {
   return (
@@ -11,11 +10,6 @@ export default function Banner() {
       </div>
 
       <div className={styles.imagens}>
-        <img
-          className={styles.circuloColorido}
-          src={circuloColorido}
-          aria-hidden={true}
-        />
         <img
           className={styles.minhaFoto}
           src={minhaFoto}
