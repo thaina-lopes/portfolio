@@ -18,6 +18,7 @@
   font-size: 1.5rem;
   line-height: 2rem;
   margin-left: 0.5rem;
+  margin-bottom: 1rem;
   border-right: 2px solid #ce9178;
   padding-right: 2px;
   width: 21ch;
@@ -26,9 +27,20 @@
   animation: piscar normal infinite 0.8s, escrever 2s steps(21) both;
 }
 
+.iconesContainer {
+  margin: 2em 0.5em;
+}
+
+.icones {
+  margin-right: 1em;
+}
+
 @keyframes escrever {
   from {
     width: 0;
+  }
+  to {
+    width: 21ch;
   }
 }
 
@@ -43,7 +55,7 @@
   overflow: hidden;
   position: relative;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
