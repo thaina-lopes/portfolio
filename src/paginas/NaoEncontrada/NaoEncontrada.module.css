@@ -9,14 +9,12 @@
 .texto404 {
   display: block;
   color: var(--cor-fonte-post);
-  font-family: var(--fonte);
   font-size: 6rem;
   font-weight: 500;
   margin-bottom: 2rem;
 }
 
 .titulo {
-  font-family: var(--fonte);
   font-size: 3rem;
   margin-bottom: 2rem;
 }

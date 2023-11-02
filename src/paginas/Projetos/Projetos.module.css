@@ -1,3 +1,18 @@
+.projetosContainer {
+  color: var(--cor-fonte-post);
+  position: relative;
+  padding: 2.5rem 7.5rem;
+}
+
+.titulo {
+  color: #444444;
+  padding: 5rem 0 2em 0;
+  font-size: 3rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
 .posts {
   padding: 0 6vw 3.625rem;
   display: flex;

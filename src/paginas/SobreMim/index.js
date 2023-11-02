@@ -4,7 +4,7 @@ import fotoSobreMim from "assets/sobre_mim_foto1.png";
 
 export default function SobreMim() {
   return (
-    <article className={styles.sobreMimContainer} id="sobreMim">
+    <section className={styles.sobreMimContainer} id="sobreMim">
       <div className={styles.postConteudoContainer}>
         <h2 className={styles.titulo}>Sobre mim</h2>
         <h3 className={styles.subtitulo}>Olá, eu sou a Thainá!</h3>
@@ -14,7 +14,7 @@ export default function SobreMim() {
           className={styles.fotoSobreMim}
         />
         <p className={styles.paragrafo}>
-          Sou estudante de Análise e desenvolvimento de Sistemas e estou feliz
+          Sou estudante de Análise e Desenvolvimento de Sistemas e estou feliz
           de te ver por aqui.
         </p>
         <p className={styles.paragrafo}>
@@ -31,6 +31,6 @@ export default function SobreMim() {
           aspectos.
         </p>
       </div>
-    </article>
+    </section>
   );
 }

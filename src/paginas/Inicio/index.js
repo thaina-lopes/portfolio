@@ -8,9 +8,7 @@ export default function Inicio() {
     <>
       <Setas />
       <SobreMim />
-      <div className={styles.espacoEmBranco}></div>;
       <Projetos />
-      <div className={styles.espacoEmBranco}></div>;
     </>
   );
 }
