@@ -2,7 +2,6 @@ import "./Post.css";
 import styles from "./Post.module.css";
 import { Route, Routes, useParams } from "react-router-dom";
 import posts from "json/posts.json";
-import PostModelo from "componentes/PostModelo";
 import ReactMarkdow from "react-markdown";
 import NaoEncontrada from "paginas/NaoEncontrada";
 import PaginaPadrao from "componentes/PaginaPadrao";
@@ -30,7 +29,7 @@ export default function Post() {
         <Route
           index
           element={
-            <PostModelo
+            <div
               fotoCapa={`/assets/posts/${post.id}/capa.png`}
               titulo={post.titulo}
             >
@@ -49,7 +48,7 @@ export default function Post() {
                   </li>
                 ))}
               </ul>
-            </PostModelo>
+            </div>
           }
         />
       </Route>

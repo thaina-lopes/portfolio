@@ -1,3 +1,21 @@
+.sobreMimContainer {
+  color: var(--cor-fonte-post);
+  position: relative;
+}
+
+.titulo {
+  font-family: var(--fonte);
+  color: #444444;
+  padding: 5rem 0 0.3em 0;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.postConteudoContainer {
+  padding: 2.5rem 7.5rem 4.5rem;
+}
+
 .fotoSobreMim {
   margin-bottom: 0.5rem;
   margin-left: 3.5rem;
@@ -14,7 +32,6 @@
 }
 
 .paragrafo {
-  text-align: justify;
   font-size: 1.5rem;
   line-height: 2.25rem;
   margin-bottom: 1.5rem;
@@ -28,12 +45,26 @@
     width: 70vw;
   }
 
+  .postConteudoContainer {
+    padding: 2rem 1.5rem 1.5rem;
+  }
+
   .paragrafo {
     margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 744px) {
+  .titulo {
+    height: 104px;
+    padding: 0 1rem;
+    font-size: 2rem;
+  }
+
+  .postConteudoContainer {
+    padding: 2rem 1rem 1.5rem;
+  }
+
   .fotoSobreMim {
     width: 80%;
   }
