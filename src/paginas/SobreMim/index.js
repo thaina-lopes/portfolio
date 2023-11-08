@@ -7,7 +7,7 @@ export default function SobreMim() {
     <section className={styles.sobreMimContainer} id="sobreMim">
       <div className={styles.postConteudoContainer}>
         <h2 className={styles.titulo}>Sobre mim</h2>
-        <h3 className={styles.subtitulo}>Olá, eu sou a Thainá!</h3>
+        <h3 className={styles.subtitulo}>Oii, eu sou a Thainá!</h3>
         <img
           src={fotoSobreMim}
           alt="Foto da Thainá"
@@ -19,7 +19,14 @@ export default function SobreMim() {
         </p>
         <p className={styles.paragrafo}>
           Sou apaixonada por tecnologia, especialmente no desenvolvimento
-          Front-End. Tenho conhecimento em HTML, CSS, JavaScript e React.
+          Front-End. Tenho conhecimento em <strong>HTML</strong>,{" "}
+          <strong>CSS</strong>, <strong>JavaScript</strong> e{" "}
+          <strong>React</strong>.
+        </p>
+        <p className={styles.paragrafo}>
+          No último ano, tomei uma decisão importante: fazer a transição de
+          carreira. Vi nisso a oportunidade de unir minha paixão por tecnologia
+          com minha trajetória profissional.
         </p>
         <p className={styles.paragrafo}>
           Meu objetivo é contribuir para o desenvolvimento de soluções
