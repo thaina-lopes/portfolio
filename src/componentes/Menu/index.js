@@ -6,8 +6,8 @@ export default function Menu() {
     <header>
       <nav className={styles.navegacao}>
         <MenuLink to="/">Início</MenuLink>
-        <MenuLink to="/sobremim">Sobre Mim</MenuLink>
-        <MenuLink to="/projetos">Projetos</MenuLink>
+        <MenuLink to="#sobreMim">Sobre mim</MenuLink>
+        <MenuLink to="#projetos">Projetos</MenuLink>
       </nav>
     </header>
   );

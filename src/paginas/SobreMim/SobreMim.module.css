@@ -1,19 +1,36 @@
+.sobreMimContainer {
+  color: var(--cor-fonte-post);
+  position: relative;
+}
+
+.titulo {
+  color: #444444;
+  padding: 5rem 0 0.3em 0;
+  font-size: 3rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.postConteudoContainer {
+  padding: 2.5rem 7.5rem 7rem;
+}
+
 .fotoSobreMim {
   margin-bottom: 0.5rem;
-  margin-left: 1.5rem;
+  margin-left: 3.5rem;
+  margin-top: -5rem;
   width: 20vw;
   float: right;
 }
 
 .subtitulo {
   margin-bottom: 2rem;
-  font-size: 2.5rem;
-  font-family: var(--fonte);
+  font-size: 2rem;
   color: #444444;
 }
 
 .paragrafo {
-  text-align: justify;
   font-size: 1.5rem;
   line-height: 2.25rem;
   margin-bottom: 1.5rem;
@@ -27,14 +44,28 @@
     width: 70vw;
   }
 
+  .postConteudoContainer {
+    padding: 2rem 1.5rem 1.5rem;
+  }
+
   .paragrafo {
     margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 744px) {
+  .titulo {
+    height: 104px;
+    padding: 0 1rem;
+    font-size: 2rem;
+  }
+
+  .postConteudoContainer {
+    padding: 2rem 1rem 1.5rem;
+  }
+
   .fotoSobreMim {
-    width: 100%;
+    width: 80%;
   }
 
   .subtitulo {

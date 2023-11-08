@@ -2,6 +2,7 @@ import BotaoPrincipal from "componentes/BotaoPrincipal";
 import styles from "./NaoEncontrada.module.css";
 import erro404 from "assets/erro_404.png";
 import { useNavigate } from "react-router-dom";
+import Inicio from "paginas/Inicio";
 
 export default function NaoEncontrada() {
   const navegar = useNavigate();
@@ -11,7 +12,7 @@ export default function NaoEncontrada() {
       <div className={styles.conteudoContainer}>
         <span className={styles.texto404}>404</span>
 
-        <h1 className={styles.titulo}>Opa! Página não encontrada.</h1>
+        <h1 className={styles.titulo}>Ops! Página não encontrada.</h1>
 
         <p className={styles.paragrafo}>
           Tem certeza de que era isso que você estava procurando?
@@ -21,16 +22,11 @@ export default function NaoEncontrada() {
           Aguarde uns instantes e recarregue a página, ou volte para a página
           inicial.
         </p>
-
-        <div className={styles.botaoContainer} onClick={() => navegar(-1)}>
-          <BotaoPrincipal tamanho="lg">Voltar</BotaoPrincipal>
-        </div>
-
-        <img
-          className={styles.imagemCachorro}
-          src={erro404}
-          alt="Gato de óculos"
-        />
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <img className={styles.imagemGato} src={erro404} alt="Gato de óculos" />
       </div>
       <div className={styles.espacoEmBranco}></div>
     </>

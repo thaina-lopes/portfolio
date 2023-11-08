@@ -1,5 +1,13 @@
-import styles from "./Inicio.module.css";
+import SobreMim from "paginas/SobreMim";
+import Projetos from "paginas/Projetos";
+import Setas from "componentes/Setas";
 
 export default function Inicio() {
-  return <div className={styles.espacoEmBranco}></div>;
+  return (
+    <>
+      <Setas />
+      <SobreMim />
+      <Projetos />
+    </>
+  );
 }
