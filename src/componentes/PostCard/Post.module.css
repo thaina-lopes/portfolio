@@ -54,6 +54,16 @@
 }
 
 @media (max-width: 744px) {
+  .post {
+    width: 300px;
+    height: 380px;
+  }
+  .capa {
+    height: 230px;
+    width: 280px;
+  }
   .botoes {
+    padding: 0 2em;
+    column-gap: 1rem;
   }
 }

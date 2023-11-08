@@ -35,4 +35,7 @@
   .posts {
     padding: 2rem 1rem 1.5rem;
   }
+  .titulo {
+    padding: 0;
+  }
 }

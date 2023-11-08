@@ -19,3 +19,13 @@
     transform: translateY(-10px);
   }
 }
+
+@media (max-width: 744px) {
+  .sessaoSetas {
+    height: 60px;
+  }
+
+  .setas {
+    display: none;
+  }
+}
