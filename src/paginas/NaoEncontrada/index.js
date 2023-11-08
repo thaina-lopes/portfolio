@@ -26,11 +26,7 @@ export default function NaoEncontrada() {
           <BotaoPrincipal tamanho="lg">Voltar</BotaoPrincipal>
         </div>
 
-        <img
-          className={styles.imagemCachorro}
-          src={erro404}
-          alt="Gato de óculos"
-        />
+        <img className={styles.imagemGato} src={erro404} alt="Gato de óculos" />
       </div>
       <div className={styles.espacoEmBranco}></div>
     </>
