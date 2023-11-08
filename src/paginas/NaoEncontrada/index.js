@@ -2,6 +2,7 @@ import BotaoPrincipal from "componentes/BotaoPrincipal";
 import styles from "./NaoEncontrada.module.css";
 import erro404 from "assets/erro_404.png";
 import { useNavigate } from "react-router-dom";
+import Inicio from "paginas/Inicio";
 
 export default function NaoEncontrada() {
   const navegar = useNavigate();
@@ -22,7 +23,7 @@ export default function NaoEncontrada() {
           inicial.
         </p>
 
-        <div className={styles.botaoContainer} onClick={() => navegar(-1)}>
+        <div className={styles.botaoContainer} index element={<Inicio />}>
           <BotaoPrincipal tamanho="lg">Voltar</BotaoPrincipal>
         </div>
 
