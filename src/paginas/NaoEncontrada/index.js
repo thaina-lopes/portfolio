@@ -22,11 +22,10 @@ export default function NaoEncontrada() {
           Aguarde uns instantes e recarregue a página, ou volte para a página
           inicial.
         </p>
-
-        <div className={styles.botaoContainer} index element={<Inicio />}>
-          <BotaoPrincipal tamanho="lg">Voltar</BotaoPrincipal>
-        </div>
-
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <img className={styles.imagemGato} src={erro404} alt="Gato de óculos" />
       </div>
       <div className={styles.espacoEmBranco}></div>
