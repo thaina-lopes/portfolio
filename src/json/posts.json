@@ -1,26 +1,37 @@
 [
   {
     "id": 1,
-    "titulo": "AluraBook"
+    "titulo": "AluraBook",
+    "site": "https://alurabook-eight-jade.vercel.app/",
+    "github": "https://github.com/thaina-lopes/alurabook"
   },
   {
     "id": 2,
-    "titulo": "Organo"
+    "titulo": "Organo",
+    "site": "https://organo-beta-roan.vercel.app/",
+    "github": "https://github.com/thaina-lopes/organo"
   },
   {
     "id": 3,
-    "titulo": "Meteora"
+    "titulo": "Meteora",
+    "site": "https://meteora-sandy.vercel.app/",
+    "github": "https://github.com/thaina-lopes/meteora"
   },
   {
     "id": 4,
-    "titulo": "AluraPlus"
+    "titulo": "AluraPlus",
+    "site": "https://aluraplus-lac-phi.vercel.app/",
+    "github": "https://github.com/thaina-lopes/aluraplus"
   },
   {
     "id": 5,
-    "titulo": "Robotron2000"
+    "titulo": "Robotron2000",
+    "site": "https://robotron2000-delta-tawny.vercel.app/",
+    "github": "https://github.com/thaina-lopes/robotron2000"
   },
   {
     "id": 6,
-    "titulo": "Lista-App"
+    "titulo": "Lista-App",
+    "github": "https://github.com/thaina-lopes/lista-app"
   }
 ]

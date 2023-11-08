@@ -3,7 +3,7 @@ import BotaoPrincipal from "componentes/BotaoPrincipal";
 
 export default function PostCard({ post }) {
   return (
-    <section to={`/posts/${post.id}`}>
+    <section>
       <div className={styles.post}>
         <img
           className={styles.capa}
@@ -13,8 +13,8 @@ export default function PostCard({ post }) {
 
         <h2 className={styles.titulo}>{post.titulo}</h2>
         <div className={styles.botoes}>
-          <BotaoPrincipal>Site</BotaoPrincipal>
-          <BotaoPrincipal>Código</BotaoPrincipal>
+          <BotaoPrincipal to={post.site}>Site</BotaoPrincipal>
+          <BotaoPrincipal to={post.github}>Código</BotaoPrincipal>
         </div>
       </div>
     </section>
