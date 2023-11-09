@@ -2,6 +2,7 @@
   color: var(--cor-fonte-post);
   position: relative;
   padding-bottom: 2em;
+  background-color: #8b8b8b1f;
 }
 
 .titulo {

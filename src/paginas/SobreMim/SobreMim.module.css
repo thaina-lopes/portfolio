@@ -1,11 +1,12 @@
 .sobreMimContainer {
   color: var(--cor-fonte-post);
   position: relative;
+  padding-top: 1em;
 }
 
 .titulo {
   color: #444444;
-  padding: 5rem 0 0.3em 0;
+  padding: 1rem 0 0.3em 0;
   font-size: 3rem;
   font-weight: 500;
   display: flex;
@@ -13,7 +14,11 @@
 }
 
 .postConteudoContainer {
-  padding: 2.5rem 7.5rem 7rem;
+  margin: 2.5rem 4rem 7rem;
+  border: 1px solid #7d7d7d8c;
+  padding: 2em;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
 }
 
 .fotoSobreMim {
