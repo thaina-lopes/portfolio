@@ -84,3 +84,11 @@
     line-height: 1.75rem;
   }
 }
+@media (max-width: 560px) {
+  .postConteudoContainer {
+    margin: 2rem 1.5rem 5rem;
+  }
+  .fotoSobreMim {
+    width: 70%;
+  }
+}

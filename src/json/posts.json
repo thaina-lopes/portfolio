@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "titulo": "AluraBook",
-    "site": "https://alurabook-eight-jade.vercel.app/",
-    "github": "https://github.com/thaina-lopes/alurabook"
+    "titulo": "Mivê - Marketing Digital",
+    "site": "https://agencia-mive.vercel.app/",
+    "github": "https://github.com/thaina-lopes/mive"
   },
   {
     "id": 2,
-    "titulo": "Organo",
-    "site": "https://organo-beta-roan.vercel.app/",
-    "github": "https://github.com/thaina-lopes/organo"
+    "titulo": "KL - Home Care",
+    "site": "https://kl-home-care.vercel.app/",
+    "github": "https://github.com/thaina-lopes/KL-home-care"
   },
   {
     "id": 3,
@@ -19,20 +19,20 @@
   },
   {
     "id": 4,
-    "titulo": "AluraPlus",
-    "site": "https://aluraplus-lac-phi.vercel.app/",
-    "github": "https://github.com/thaina-lopes/aluraplus"
+    "titulo": "Cuidadora de idosos",
+    "site": "https://cuidadora-idosos.vercel.app/",
+    "github": "https://github.com/thaina-lopes/cuidadora-idosos"
   },
   {
     "id": 5,
-    "titulo": "Robotron2000",
-    "site": "https://robotron2000-delta-tawny.vercel.app/",
-    "github": "https://github.com/thaina-lopes/robotron2000"
+    "titulo": "Organo",
+    "site": "https://organo-beta-roan.vercel.app/",
+    "github": "https://github.com/thaina-lopes/organo"
   },
   {
     "id": 6,
-    "titulo": "Lista-App",
-    "site": "https://portfolio-git-layout2-thaina-lopes.vercel.app/naoencontrada",
-    "github": "https://github.com/thaina-lopes/lista-app"
+    "titulo": "AluraBooks",
+    "site": "https://alurabook-eight-jade.vercel.app/",
+    "github": "https://github.com/thaina-lopes/alurabook"
   }
 ]
