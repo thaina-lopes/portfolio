@@ -11,7 +11,7 @@
 O site é composto por três seções:
 
 - **Home:** Uma breve apresentação e minhas redes sociais;
-- **Sobre mim:** Descrição falando um pouco sobre quem sou;
+- **Sobre mim:** Descrição falando um pouco sobre mim;
 - **Projetos:** Apresento alguns projetos desenvolvidos;
 
 ---
@@ -34,9 +34,6 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
     <td align="center">
       <a href="https://github.com/thaina-lopes">
         <img src="https://avatars.githubusercontent.com/u/130593695?v=4" width="100px;" alt="Foto da Thainá Lopes no GitHub"/><br>
-        <sub>
-          <b>Iuri Silva</b>
-        </sub>
       </a>
     </td>
   </tr>
