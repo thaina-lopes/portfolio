@@ -1,7 +1,9 @@
 <h1 align="center">
-  💻<br>Portfólio - Thainá Lopes
+  💻<br>Bem-vindo(a) ao meu portfólio!
 </h1>
 
+Como desenvolvedroa front-end, decidi criar um portfólio para mostrar alguns dos meus projetos, tecnologias que domino e também falo um pouco sobre mim e minhas experiências.
+O portfólio é responsivo, visando entregar uma boa experiência para usuários em diversos dispositivos.
 ![Resultado final do projeto](src/assets/preview.png)
 
 <h4 align="center"><a href="https://portfolio-thaina.vercel.app/">Clique para visitar o projeto</a></h4>
